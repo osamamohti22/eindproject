@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --primary-color:#142850;
+    --light-primary-color:#27496d;
+    --secondary-color:#00909e;
+    --black:#000000;
+    --white:#eeeeee;
+    font-size: 20px;
+
+}
+
+.navbar{
+    background-color: var(--primary-color) ;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    line-height: 70px;
+}
+.navbar-item{
+    transition: .3s;
+}
+.navbar-link{
+    text-decoration:none;
+    color: var(--white);
+    display: block;
+    
+}
+.navbar-item:hover{
+    background-color:var(--light-primary-color) ;
+    transition:.3s;
+}
+.title{
+    padding-top: 5px;
+    padding-left: 300px;
+    padding-right: 300px
+   
+}
+.title h1{
+ border-style: solid;
+ border-color: var(--secondary-color);
+ background-color: var(--light-primary-color);
+text-align: center;
+}
+.text{
+    padding-top: 5px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-style: solid;
+
+  
+}
+.contener-wiebenik li{
+padding-left: 650px;
+padding-top: 50px;
+border-style: solid;
+border-width: 50px;
+border-top-color: var(--light-primary-color);
+border-bottom-color: var(--light-primary-color);
+border-right-color: var(--primary-color);
+border-left-color: var(--primary-color);
+}
+.contener-wiebenik h1{
+    padding-bottom: 30px;
+}
+#search{
+    width:100px
+    ;
+}
